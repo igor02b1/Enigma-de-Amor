@@ -16,9 +16,32 @@
     color: white;
 }
 
+.texto{
+    color: white;
+    font-size: 16px;
+    
+}
+
 .imagem-1 {
     border-radius: 5px;
     margin-bottom: 80px;
+}
+
+.imagem-2 {
+    width: 300px;
+    height: 270px;
+    margin-bottom: 80px;
+}
+
+.imagem-3 {
+    width: 300px;
+    height: 270px;
+}
+
+.imagem-4{
+    width: 300px;
+    height: 270px;
+    margin-bottom: 55px;
 }
 
 .caixa {
