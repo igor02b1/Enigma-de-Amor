@@ -5,7 +5,22 @@
     background-color: black;
 }
 
+span {
+    color: yellow;
+}
 .box-conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-conteudo-5 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,6 +34,20 @@
 .texto{
     color: white;
     font-size: 16px;
+    
+}
+
+.texto-fase5 {
+    color: white;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+
+.container-textos{
+    width: 500px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 80px;
     
 }
 
@@ -44,6 +73,11 @@
     margin-bottom: 55px;
 }
 
+.imagem-5{
+    width: 300px;
+    height: 280px;
+}
+
 .caixa {
     background-color: white;
     border-radius: 2px;
@@ -63,7 +97,54 @@
     border: black 1px solid;
     color: black;
 } 
+.btn-enviar-2{
+    width: 100px;
+    height: 50px;
+    margin-top: 40px;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn-enviar-2:hover{
+    background-color: white;
+    border: black 1px solid;
+    color: black;
+} 
 
 .secao-resposta {
     display: flex;
+}
+
+.cor-1 {
+    color: red;
+}
+
+.cor-2 {
+    color: rgb(102, 255, 0);
+}
+
+.cor-3 {
+    color: rgb(204, 0, 255);
+}
+
+.cor-4 {
+    color: rgb(16, 166, 216);
+}
+
+.cor-5 {
+    color: rgb(9, 246, 171);
+}
+
+.cor-6 {
+    color: rgb(136, 0, 255);
+}
+
+.cor-7 {
+    color: rgb(231, 10, 131);
+}
+
+.audio{
+    margin-top: 50px;
 }
